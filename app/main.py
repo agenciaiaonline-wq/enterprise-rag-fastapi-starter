@@ -72,7 +72,7 @@ class InvoiceExtractionResponse(BaseModel):
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok", "service": "private-corporate-rag"}
+    return {"status": "ok", "service": "enterprise-rag-fastapi-starter"}
 
 
 @app.post("/ingest", response_model=IngestResponse)
