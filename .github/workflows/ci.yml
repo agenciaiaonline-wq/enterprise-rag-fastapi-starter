@@ -1,4 +1,4 @@
-name: Private RAG API CI
+name: Enterprise RAG API CI
 
 on:
   push:
